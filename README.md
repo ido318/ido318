@@ -1,35 +1,37 @@
 # Hi, I'm Ido 👋
 
-**Product builder shipping AI voice agents end-to-end** — from the business problem, through architecture and code, to a system real users rely on daily.
+**I build business systems end-to-end: map the operation, define the problem, design the solution, ship it.**
 
-I come from the operations side (I run a 15-person call center), which is why I build tools around real workflows, not demos. Currently studying Accounting & Economics at Ariel University.
+I work with real businesses. I sit with the owner, map how the work actually flows, find where time and money leak, and build the system that fixes it — the data model, the workflows, the automations, the AI layer, and the interface the team lives in every day.
 
-## What I build
+## What I do
 
-- Hebrew AI voice agents (ElevenLabs + Twilio) that answer real phone calls
-- Full-stack web apps with Next.js, TypeScript and Supabase/PostgreSQL
-- Operational dashboards, RTL-first, for teams that live inside them all day
-- Human-in-the-loop workflows: automate the routine, escalate what matters
+- **Business & process mapping** → requirements → product spec → working system
+- **Full-stack systems** — Next.js, TypeScript, Node.js, Supabase/PostgreSQL, RTL-first
+- **AI agents wired into the system** — Hebrew voice agents (ElevenLabs + Twilio), LLM workflows with human approval
+- **Automation** — SMS, invoicing & payment links, reminders, escalations, background jobs
 
 ## Featured project
 
-### 🐾 Voxly — Hebrew Voice AI Agent + Veterinary Clinic Dashboard
+### 🐾 Voxly Vet — Clinic management system + AI receptionist
 
-A production system for a veterinary clinic. An AI agent answers incoming calls in Hebrew, looks up the customer and their pets, escalates urgent cases to the vet, and every call lands in an RTL operations dashboard.
+A complete practice-management system for a veterinary clinic, with an AI voice agent built into it. In production, used daily.
 
-- Monorepo: voice-agent service (Node.js + Hono, Fly.io) · dashboard (Next.js 16, Vercel) · shared package · Supabase migrations
-- 50+ database migrations, RLS policies, unit + integration tests, CI
-- Deployed and in use — not a prototype (the public repo is an anonymized snapshot; client data stays private)
+**The clinic system:** customers & pets, calendar & appointments (approval flow, check-in, waitlist), visit workspace with SOAP notes & vitals, medical records, prescriptions, vaccinations & automatic reminders, lab orders, tasks & follow-ups, inventory, price list, invoices & payment links, SMS templates, client-facing visit summaries, RTL dashboard.
 
-→ [Repository](https://github.com/ido318/voxly-vet)
+**The AI agent:** answers the clinic's phone in Hebrew, identifies the customer and pet, books and reschedules appointments, quotes prices from the live price list, sends SMS confirmations, and escalates urgent cases to the vet — all against the same database, in real time.
+
+**Engineering:** monorepo (agent · dashboard · shared package), 50+ migrations, row-level security per clinic, 960+ tests, CI, deployed on Fly.io + Vercel.
+
+→ [Repository](https://github.com/ido318/voxly-vet) *(anonymized snapshot — client data stays private)*
 
 ## Stack
 
-`TypeScript` `Next.js` `React` `Node.js` `Hono` `Supabase` `PostgreSQL` `Tailwind` `ElevenLabs` `Twilio` `Vercel` `Fly.io` `Vitest`
+`TypeScript` `Next.js` `React` `Node.js` `Hono` `Supabase` `PostgreSQL` `Tailwind` `ElevenLabs` `Twilio` `OpenAI` `Vercel` `Fly.io` `Vitest`
 
 ## How I work
 
-I use AI coding tools heavily and deliberately: I own the product decisions, the architecture and the outcome; the tooling accelerates the implementation. Every feature ships with tests, migrations and docs.
+I own the problem, the product decisions and the outcome. I use AI coding tools heavily to move fast on implementation; every feature ships with tests, migrations and docs.
 
 ## Contact
 
