@@ -19,9 +19,9 @@ A production system for a veterinary clinic. An AI agent answers incoming calls 
 
 - Monorepo: voice-agent service (Node.js + Hono, Fly.io) · dashboard (Next.js 16, Vercel) · shared package · Supabase migrations
 - 50+ database migrations, RLS policies, unit + integration tests, CI
-- Deployed and in use — not a prototype
+- Deployed and in use — not a prototype (the public repo is an anonymized snapshot; client data stays private)
 
-→ [Repository](https://github.com/ido318/mvp-noa-1-0)
+→ [Repository](https://github.com/ido318/voxly-vet)
 
 ## Stack
 
